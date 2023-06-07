@@ -1,0 +1,10 @@
+CREATE TABLE OFFICE (EMPL_ID NUMBER(6) PRIMARY KEY , EMPL_NAME CHAR(17) NOT NULL , EMPL_AGE NUMBER NOT NULL , EMPL_SALARY DECIMAL(8,2) NOT NULL );
+/* ...........NOW INSERTING THE TABLE VALUES ............. */
+
+INSERT INTO OFFICE VALUES (123456 , 'MAJJI SAI KUMAR' , 25 , 28000.00);
+
+/* ......SELECTING THE VALUES INTO TABLE ...... */
+
+SELECT * FROM OFFICE;
+
+                                                                                                    
